@@ -168,8 +168,6 @@ a {
   color: #d32;
   outline: none;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
 a:hover {
@@ -245,8 +243,6 @@ a:hover {
   position: fixed;
   opacity: 1;
   -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   height: 100%;
 }
@@ -358,7 +354,6 @@ a:hover {
   }
   #container .article .article-meta .article-date {
     font-size: 12px;
-    -webkit-border-radius: 0;
     border-radius: 0;
     color: #666;
     background: none;
@@ -481,8 +476,6 @@ a:hover {
   font-family: Roboto, "Roboto", serif;
   font-size: 30px;
   -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
   transition: 0.3s;
 }
 #header {
@@ -498,7 +491,6 @@ a:hover {
   text-align: center;
   display: block;
   border: 5px solid #fff;
-  -webkit-border-radius: 300px;
   border-radius: 300px;
   width: 128px;
   height: 128px;
@@ -514,12 +506,12 @@ a:hover {
   text-align: center;
 }
 #header .profilepic img {
-  width: 20%;
-  height: 20%;
-  -webkit-border-radius: 300px;
+  width: 100%;
+  height: 100%;
   border-radius: 300px;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 #header .profilepic img.show {
   width: 100%;
@@ -567,14 +559,11 @@ a:hover {
 }
 #header .switch-area .switch-wrap {
   -webkit-transition: -webkit-transform 0.3s ease-in;
-  -moz-transition: -moz-transform 0.3s ease-in;
-  -ms-transition: -ms-transform 0.3s ease-in;
   transition: transform 0.3s ease-in;
   position: relative;
 }
 #header .turn-left {
   -webkit-transform: translate(-100%, 0);
-  -moz-transform: translate(-100%, 0);
   -ms-transform: translate(-100%, 0);
   transform: translate(-100%, 0);
 }
@@ -582,8 +571,6 @@ a:hover {
   width: 100%;
   position: absolute;
   -webkit-transition: -webkit-transform 0.3s ease-in;
-  -moz-transition: -moz-transform 0.3s ease-in;
-  -ms-transition: -ms-transform 0.3s ease-in;
   transition: transform 0.3s ease-in;
 }
 #header .header-nav .social {
@@ -592,7 +579,6 @@ a:hover {
   text-align: center;
 }
 #header .header-nav .social a {
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   display: -moz-inline-stack;
   display: inline-block;
@@ -606,8 +592,6 @@ a:hover {
   width: 28px;
   height: 28px;
   -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
   transition: 0.3s;
 }
 #header .header-nav .social a:hover {
@@ -706,7 +690,6 @@ a:hover {
 }
 #header .switch-part3 .switch-friends-link {
   margin-right: 9px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 5px;
 }
@@ -773,8 +756,6 @@ a:hover {
   font-size: 16px;
   color: #333;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
 .archives .archive-article-title:hover {
@@ -871,10 +852,7 @@ a:hover {
 .article.show {
   visibility: visible;
   -webkit-animation: cd-bounce-1 0.6s;
-  -moz-animation: cd-bounce-1 0.6s;
   -webkit-animation: cd-bounce-1 0.6s;
-  -moz-animation: cd-bounce-1 0.6s;
-  -ms-animation: cd-bounce-1 0.6s;
   animation: cd-bounce-1 0.6s;
 }
 .article.hidden {
@@ -903,19 +881,6 @@ a:hover {
   }
   100% {
     -webkit-transform: scale(1);
-  }
-}
-@-moz-keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -moz-transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: scale(1.01);
-  }
-  100% {
-    -moz-transform: scale(1);
   }
 }
 .article-index {
@@ -948,11 +913,7 @@ a:hover {
   margin-bottom: 20px;
   font-size: 26px;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -o-transition: color 0.3s;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
 .article-title:hover {
@@ -1017,7 +978,6 @@ a:hover {
   width: 6px;
   height: 6px;
   border: 1px solid #999;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #aaa;
   display: inline-block;
@@ -1152,13 +1112,8 @@ a:hover {
   font-size: 12px;
   padding: 2px 8px 4px;
   line-height: 16px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   border-radius: 2px;
   -webkit-transition: background 0.3s;
-  -moz-transition: background 0.3s;
-  -ms-transition: background 0.3s;
   transition: background 0.3s;
 }
 .article-more-link a:hover {
@@ -1181,22 +1136,17 @@ a:hover {
   font-size: 12px;
   color: #aaa;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
 #article-nav .article-nav-link-wrap strong {
   background: #ddd;
   color: #fff;
-  -webkit-border-radius: 100%;
   border-radius: 100%;
   width: 15px;
   height: 15px;
   display: inline-block;
   text-align: center;
   -webkit-transition: background 0.3s;
-  -moz-transition: background 0.3s;
-  -ms-transition: background 0.3s;
   transition: background 0.3s;
 }
 #article-nav .article-nav-link-wrap:hover strong {
@@ -1208,104 +1158,27 @@ a:hover {
 #article-nav #article-nav-older {
   float: right;
 }
-@-moz-keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-}
 @-webkit-keyframes cd-bounce-1 {
   0% {
     opacity: 0;
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1);
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
   60% {
     opacity: 1;
     -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
     -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
     transform: scale(1.01);
   }
   100% {
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1);
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@-o-keyframes cd-bounce-1 {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  60% {
-    opacity: 1;
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -1314,32 +1187,23 @@ a:hover {
   0% {
     opacity: 0;
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1);
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
   60% {
     opacity: 1;
     -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
     -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
     transform: scale(1.01);
   }
   100% {
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1);
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
@@ -1392,8 +1256,6 @@ a:hover {
   font-size: 16px;
   color: #333;
   -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
   transition: color 0.3s;
 }
 .archives .archive-article-title:hover {
@@ -1485,7 +1347,6 @@ a:hover {
   overflow: auto;
   color: #4c4c4c;
   line-height: 22.400000000000002px;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 .article-entry .highlight .gutter pre,
@@ -1678,9 +1539,6 @@ pre .css ~ * .id {
   width: 20px;
   height: 20px;
   background: #4d4d4d;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
   color: #fff;
@@ -1756,9 +1614,6 @@ pre .css ~ * .id {
 .instagram .album div.img-box {
   position: relative;
   margin: 0 20px 10px;
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
   box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 1px 0 1px rgba(255,255,255,0.1);
 }
 .instagram .album div.img-box .img-bg {
@@ -1770,16 +1625,9 @@ pre .css ~ * .id {
   margin: -5px;
   padding: 5px;
   background: rgba(204,204,204,0.8);
-  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 1px 5px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 1px 5px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 1px 5px rgba(0,0,0,0.1);
   box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 1px 5px rgba(0,0,0,0.1);
   -webkit-transition: all 0.15s ease-out 0.1s;
-  -moz-transition: all 0.15s ease-out 0.1s;
-  -o-transition: all 0.15s ease-out 0.1s;
   -webkit-transition: all 0.15s ease-out 0.1s;
-  -moz-transition: all 0.15s ease-out 0.1s;
-  -ms-transition: all 0.15s ease-out 0.1s;
   transition: all 0.15s ease-out 0.1s;
   opacity: 0.2;
   cursor: pointer;
@@ -1833,7 +1681,6 @@ pre .css ~ * .id {
   color: #fff;
   width: 80px;
   text-align: center;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   opacity: 0.8;
   position: absolute;
@@ -1853,14 +1700,12 @@ pre .css ~ * .id {
   height: 32px;
   width: 32px;
   background: #cecece;
-  -webkit-border-radius: 100px;
   border-radius: 100px;
   position: relative;
   overflow: hidden;
   display: inline-block;
   padding: 10px;
   -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
   -ms-transform: scale(0.6);
   transform: scale(0.6);
   cursor: pointer;
@@ -1895,9 +1740,6 @@ pre .css ~ * .id {
   height: 12px;
   background: #ddd;
   position: absolute;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
   border-radius: 60px;
   left: 10px;
   top: 8px;
@@ -1910,9 +1752,6 @@ pre .css ~ * .id {
   background: #ccc;
   bottom: -8px;
   left: 4px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
   border-radius: 60px;
 }
 .switch-btn .icon-ctn .ribbon {
@@ -1938,7 +1777,6 @@ pre .css ~ * .id {
   border-style: solid;
   border-width: 0px 3px 3px 3px;
   border-color: #333;
-  -webkit-border-radius: 0 0 50px 50px;
   border-radius: 0 0 50px 50px;
   position: absolute;
   top: 16px;
@@ -1962,7 +1800,6 @@ pre .css ~ * .id {
   border-style: solid;
   border-width: 3px 0 0 3px;
   border-color: #333;
-  -webkit-border-radius: 50px 0 0 0;
   border-radius: 50px 0 0 0;
   position: absolute;
   left: -3px;
@@ -1974,7 +1811,6 @@ pre .css ~ * .id {
   border-style: solid;
   border-width: 3px 3px 0 3px;
   border-color: #333;
-  -webkit-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0;
   position: absolute;
   top: 8px;
@@ -1998,7 +1834,6 @@ pre .css ~ * .id {
   border-style: solid;
   border-width: 0 3px 3px 0;
   border-color: #333;
-  -webkit-border-radius: 0 0 50px 0;
   border-radius: 0 0 50px 0;
   position: absolute;
   left: 5px;
@@ -2008,7 +1843,6 @@ pre .css ~ * .id {
   width: 12px;
   height: 14px;
   background: #333;
-  -webkit-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   margin-left: 10px;
   margin-top: 2px;
@@ -2054,13 +1888,10 @@ pre .css ~ * .id {
   float: left;
   padding: 0 5px 0px 10px;
   position: relative;
-  -webkit-border-radius: 0 5px 5px 0;
   border-radius: 0 5px 5px 0;
   margin: 5px 9px 5px 8px;
   font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
   -webkit-transition: opacity 0.3s;
-  -moz-transition: opacity 0.3s;
-  -ms-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 .tagcloud a:hover {
@@ -2080,9 +1911,7 @@ pre .css ~ * .id {
   width: 4px;
   height: 4px;
   background-color: #fff;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
   position: absolute;
   top: 7px;
@@ -2197,12 +2026,10 @@ pre .css ~ * .id {
   display: block;
 }
 ::-webkit-scrollbar-thumb {
-  -webkit-border-radius: 8px;
   border-radius: 8px;
   background-color: rgba(0,0,0,0.2);
 }
 ::-webkit-scrollbar-thumb:hover {
-  -webkit-border-radius: 8px;
   border-radius: 8px;
   background-color: rgba(0,0,0,0.5);
 }
@@ -2270,8 +2097,6 @@ pre .css ~ * .id {
   width: 6px;
   height: 6px;
   border: 1px solid #999;
-  -webkit-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #aaa;
   display: inline-block;
