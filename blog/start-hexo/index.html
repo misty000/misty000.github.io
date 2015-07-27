@@ -6,37 +6,25 @@
   
   <title>从零开始构建一个Hexo博客 | Misty&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了simple，jekyll，最终选择了Hexo。
+  <meta name="description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了Simple，Jekyll，最终选择了Hexo。
 从零开始构建一个Hexo博客既然是从零开始，那么就从空白操作系统和安装运行环境开始。
 
-等我去下一个Ubuntu :)
-
-注意事项
-把路径中的misty换成自己的主文件夹名；
-执行npm操作要加sudo，否则很">
+等我去下一个Ubuntu :)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="从零开始构建一个Hexo博客">
 <meta property="og:url" content="http://misty000.github.io/blog/start-hexo/index.html">
 <meta property="og:site_name" content="Misty's Blog">
-<meta property="og:description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了simple，jekyll，最终选择了Hexo。
+<meta property="og:description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了Simple，Jekyll，最终选择了Hexo。
 从零开始构建一个Hexo博客既然是从零开始，那么就从空白操作系统和安装运行环境开始。
 
-等我去下一个Ubuntu :)
-
-注意事项
-把路径中的misty换成自己的主文件夹名；
-执行npm操作要加sudo，否则很">
-<meta property="og:updated_time" content="2015-07-27T12:41:29.959Z">
+等我去下一个Ubuntu :)">
+<meta property="og:updated_time" content="2015-07-27T12:56:47.416Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="从零开始构建一个Hexo博客">
-<meta name="twitter:description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了simple，jekyll，最终选择了Hexo。
+<meta name="twitter:description" content="以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了Simple，Jekyll，最终选择了Hexo。
 从零开始构建一个Hexo博客既然是从零开始，那么就从空白操作系统和安装运行环境开始。
 
-等我去下一个Ubuntu :)
-
-注意事项
-把路径中的misty换成自己的主文件夹名；
-执行npm操作要加sudo，否则很">
+等我去下一个Ubuntu :)">
   
     <link rel="alternative" href="/atom.xml" title="Misty&#39;s Blog" type="application/atom+xml">
   
@@ -231,19 +219,24 @@
       
         
         <div id="toc" class="article-toc">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#从零开始构建一个Hexo博客"><span class="toc-number">1.</span> <span class="toc-text">从零开始构建一个Hexo博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#注意事项"><span class="toc-number">1.1.</span> <span class="toc-text">注意事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.2.</span> <span class="toc-text">安装nodejs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#-_linux"><span class="toc-number">1.2.0.1.</span> <span class="toc-text">- linux</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#-_windows"><span class="toc-number">1.2.0.2.</span> <span class="toc-text">- windows</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#验证node和npm是否安装成功；"><span class="toc-number">1.2.1.</span> <span class="toc-text">验证node和npm是否安装成功；</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-number">1.3.</span> <span class="toc-text">安装hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#验证hexo是否安装成功"><span class="toc-number">1.3.1.</span> <span class="toc-text">验证hexo是否安装成功</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建第一个博客"><span class="toc-number">1.4.</span> <span class="toc-text">创建第一个博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#方法1"><span class="toc-number">1.4.1.</span> <span class="toc-text">方法1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方法2"><span class="toc-number">1.4.2.</span> <span class="toc-text">方法2</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布到Github_page"><span class="toc-number">1.5.</span> <span class="toc-text">发布到Github page</span></a></li></ol></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#从零开始构建一个Hexo博客"><span class="toc-number">1.</span> <span class="toc-text">从零开始构建一个Hexo博客</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#注意事项"><span class="toc-number">1.1.</span> <span class="toc-text">注意事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用到的软件及版本"><span class="toc-number">1.2.</span> <span class="toc-text">用到的软件及版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.3.</span> <span class="toc-text">安装nodejs</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#-_linux"><span class="toc-number">1.3.0.1.</span> <span class="toc-text">- linux</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#-_windows"><span class="toc-number">1.3.0.2.</span> <span class="toc-text">- windows</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#验证node和npm是否安装成功；"><span class="toc-number">1.3.1.</span> <span class="toc-text">验证node和npm是否安装成功；</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo"><span class="toc-number">1.4.</span> <span class="toc-text">安装hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#验证hexo是否安装成功"><span class="toc-number">1.4.1.</span> <span class="toc-text">验证hexo是否安装成功</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建第一个博客"><span class="toc-number">1.5.</span> <span class="toc-text">创建第一个博客</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#方法1"><span class="toc-number">1.5.1.</span> <span class="toc-text">方法1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方法2"><span class="toc-number">1.5.2.</span> <span class="toc-text">方法2</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#发布到Github_page"><span class="toc-number">1.6.</span> <span class="toc-text">发布到Github page</span></a></li></ol></li></ol>
           <hr/>
         </div>
         
-        <p>以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了<a href="http://isnowfy.github.io/simple/" target="_blank" rel="external">simple</a>，<a href="https://github.com/jekyll/jekyll" target="_blank" rel="external">jekyll</a>，最终选择了<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>。</p>
+        <p>以前曾简单接触过Github pages，看文档感觉好复杂，同时对静态博客并不感冒。前几天有一个群里聊起来，突然对静态博客产生了兴趣。尝试了<a href="http://isnowfy.github.io/simple/" target="_blank" rel="external">Simple</a>，<a href="https://github.com/jekyll/jekyll" target="_blank" rel="external">Jekyll</a>，最终选择了<a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>。</p>
 <h1 id="从零开始构建一个Hexo博客">从零开始构建一个Hexo博客</h1><p>既然是从零开始，那么就从空白操作系统和安装运行环境开始。</p>
 <blockquote>
 <p>等我去下一个Ubuntu :)</p>
 </blockquote>
+<a id="more"></a>
 <h2 id="注意事项">注意事项</h2><ul>
 <li>把路径中的misty换成自己的主文件夹名；</li>
 <li>执行npm操作要加sudo，否则很有可能报错 <code>linux</code>；</li>
 <li>windows上除了安装nodejs部分略有不同外，其他只要把sudo去掉即可；</li>
+</ul>
+<h2 id="用到的软件及版本">用到的软件及版本</h2><ul>
+<li>nodejs 0.12.7 (npm 2.11.3)</li>
+<li>hexo 3.1.1</li>
 </ul>
 <h2 id="安装nodejs">安装nodejs</h2><p>目前有三种方式安装nodejs</p>
 <ul>
@@ -253,7 +246,7 @@
 </ul>
 <h4 id="-_linux">- linux</h4><p>我选择用tar.gz安装。将tar.gz包解压到某个文件夹，例如 <code>/home/misty/Tools/node-v0.12.7-linux-x86</code>。<br>进入<code>node-v0.12.7-linux-x86/bin</code>文件夹可以看到<code>node</code>，<code>npm</code>这两个文件，这时候要在<code>/usr/local/bin/</code>文件夹下建立链接。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo ln -s /home/misty/Tools/node-v0.12.7-linux-x86/bin/npm /usr/local/bin/npm&#10;$ sudo ln -s /home/misty/Tools/node-v0.12.7-linux-x86/bin/node /usr/local/bin/node</span><br></pre></td></tr></table></figure>
-<h4 id="-_windows">- windows</h4><p>留坑</p>
+<h4 id="-_windows">- windows</h4><p>下载msi，一路下一步即可。</p>
 <h3 id="验证node和npm是否安装成功；">验证<code>node</code>和<code>npm</code>是否安装成功；</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node -v&#10;v0.12.7&#10;$ npm -v&#10;2.11.3</span><br></pre></td></tr></table></figure>
 <p>看到版本号，真是松了一口气。</p>
 <h2 id="安装hexo">安装hexo</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
@@ -277,10 +270,11 @@
 </blockquote>
 <p>首先登录github并创建一个名为yourname.github.io的项目，yourname即github的注册名。</p>
 <p>我们需要先装一个插件<code>hexo-deployer-git</code><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<p>然后打开<code>first-blog/_config.yml</code>文件，在最下面找到<code>deploy</code>配置项，替换为<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Deployment&#10;## Docs: http://hexo.io/docs/deployment.html&#10;deploy:&#10;  type: git&#10;  repo: https://github.com/misty000/misty000.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
+<p>然后打开<code>first-blog/_config.yml</code>文件，在最下面找到<code>deploy</code>配置项，替换为<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Deployment&#10;## Docs: http://hexo.io/docs/deployment.html&#10;deploy:&#10;  type: git&#10;  repo: https://github.com/yourname/yourname.github.io.git&#10;  branch: master</span><br></pre></td></tr></table></figure></p>
 <blockquote>
 <p>注意：冒号后面必须有空格</p>
 </blockquote>
+<p>输入github账号密码，等待片刻，发布成功，我已经迫不及待打开自己的<a href="http://misty000.github.io" title="Misty&#39;s Blog">博客</a>好好欣赏一番了。</p>
 
       
     </div>
